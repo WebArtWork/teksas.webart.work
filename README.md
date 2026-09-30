@@ -17,3 +17,6 @@ Live site: https://teksas.webart.work
 
 ## Notes
 Сторінка прямо позначає деякі дані як неверифіковані: точна кількість номерів і категорій, деталі та вартість сауни, кількість і умови альтанок, а також email, сайт, Instagram і графік роботи наразі не підтверджені.
+
+## Forms
+Live form sends requests to HotelOS (hotelId `kp-teksas`): `stay-request` (replaces the old contacts block `#booking`). No sauna or gazebo form: the sauna is marked as unverified and gazebos have no matching form type, so those CTAs call the hotel.
